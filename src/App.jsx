@@ -1,4 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
+import "react-tooltip/dist/react-tooltip.css";
 
 import {
   About,
@@ -21,10 +22,10 @@ const App = () => {
           <Hero />
         </div>
         <About />
-        <Experience />
         <Tech />
+        <Experience />
         <Works />
-        <Feedbacks />
+        {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
